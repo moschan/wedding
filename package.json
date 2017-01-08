@@ -1,0 +1,28 @@
+{
+  "name": "wedding",
+  "version": "1.0.0",
+  "description": "The wedding website for us",
+  "main": "src/js/index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.18.6"
+  },
+  "scripts": {
+    "start": "$(npm bin)/browser-sync start --config bs-config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "url": "git+ssh://git@github.com/moschan/wedding.git",
+    "type": "git"
+  },
+  "keywords": [],
+  "author": "moschan <kaityo02＠gmail.com> (http://moschan.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moschan/wedding/issues"
+  },
+  "homepage": "https://github.com/moschan/wedding#readme"
+}
