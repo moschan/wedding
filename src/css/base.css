@@ -1,0 +1,19 @@
+html {
+  font-family: "NexaBold";
+  color: #333F58;
+}
+
+body {
+  background: url('../img/pattern.png')
+}
+
+* {
+  box-sizing: border-box;
+}
+
+footer {
+  text-align: center;
+  background-color: white;
+  height: 3em;
+}
+

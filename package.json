@@ -7,6 +7,7 @@
     "doc": "docs"
   },
   "dependencies": {
+    "font-awesome": "^4.7.0",
     "postcss-cli": "^2.6.0",
     "postcss-cssnext": "^2.9.0",
     "postcss-import": "^9.0.0",
