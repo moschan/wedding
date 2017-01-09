@@ -6,12 +6,18 @@
   "directories": {
     "doc": "docs"
   },
-  "dependencies": {},
+  "dependencies": {
+    "postcss-cli": "^2.6.0",
+    "postcss-cssnext": "^2.9.0",
+    "postcss-import": "^9.0.0",
+    "postcss-sorting": "^1.7.0"
+  },
   "devDependencies": {
     "browser-sync": "^2.18.6"
   },
   "scripts": {
-    "start": "$(npm bin)/browser-sync start --config bs-config.js",
+    "start": "browser-sync start --config bs-config.js",
+    "build:css": "postcss -c .postcssrc.json; posthtml -o docs/index.html -i src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
