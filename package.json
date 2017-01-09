@@ -19,6 +19,7 @@
   "scripts": {
     "start": "browser-sync start --config bs-config.js",
     "build:css": "postcss -c .postcssrc.json",
+    "watch:css": "postcss -w -c .postcssrc.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
