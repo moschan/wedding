@@ -1,19 +1,35 @@
+@import "palette.css";
 html {
-  font-family: "NexaBold";
-  color: #333F58;
+  font-family: 'Raleway', "Meiryo UI" , "メイリオ" , Meiryo;
+  font-weight: 100;
+  color: var(--color-text);
+}
+
+:link, :visited {
+  color: var(--color-text);
 }
 
 body {
-  background: url('../img/pattern.png')
+  /* background: url('../img/brickwall.png') */
 }
 
 * {
   box-sizing: border-box;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', "Meiryo UI" , "メイリオ" , Meiryo;
+  font-weight: 100;
+
+}
+
 footer {
   text-align: center;
-  background-color: white;
-  height: 3em;
+  background-color: #E5D5B9;
+}
+
+footer > p {
+  margin: 0;
+  padding: 1rem 0;
 }
 

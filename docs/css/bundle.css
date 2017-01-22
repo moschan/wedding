@@ -4379,47 +4379,145 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
   width: auto;
   height: auto;
 }
+:root {
+  --color-base: #fafafa;
+  --color-text: #333F58;
+  --color-heading: #D5B286;
+}
 html {
-  color: #333F58;
-  font-family: "NexaBold";
+  color: var(--color-text);
+  font-weight: 100;
+  font-family: 'Raleway', "Meiryo UI" , "メイリオ" , Meiryo;
+}
+:link, :visited {
+  color: var(--color-text);
 }
 body {
-  background: url('../img/pattern.png')
+  /* background: url('../img/brickwall.png') */
 }
 * {
   box-sizing: border-box;
 }
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 100;
+  font-family: 'Raleway', "Meiryo UI" , "メイリオ" , Meiryo;
+
+}
 footer {
-  height: 3em;
-  background-color: white;
+  background-color: #E5D5B9;
   text-align: center;
+}
+footer > p {
+  margin: 0;
+  padding: 1rem 0;
 }
 .headding-h2 {
-  margin: 3em 0 1em 0;
+  margin: 16px 80px;
+  margin: 1rem 5rem;
+  padding-bottom: 0.2em;
+  border-bottom: 1px solid;
+  color: #D5B286;
   text-align: center;
+  font-weight: normal;
 }
-.container-wrapper {
-  margin: 2em;
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 1280px;
-  width:90%;
+.favorite-pictures {
+  margin: 16px 16px;
+  margin: 1rem 1rem;
+  padding-bottom: 0.2em;
+  border-bottom: 1px solid;
+  color: #D5B286;
+  text-align: center;
+  font-weight: normal;
 }
+.container-wrapper { }
 .container {
-  padding: 2em;
-  background: white;
+  padding: .2em;
+  background-color: #fafafa;
+}
+.container--1st {
+  background: url('../img/pattern.svg') no-repeat;
+  background-position: bottom
+}
+.container--1st p {
+  color: #fafafa;
 }
 .top {
   text-align: center;
 }
 .names { }
 .bride-name, .groom-name {
-  font-size: 5em
+  font-size: 3em;
+}
+.and {
+  padding-left: .2em;
+  font-size: 1.5em;
 }
 .hero > img {
   margin: 0 auto;
 }
+.box {
+  margin-right: 3.2px;
+  margin-right: .2rem;
+  margin-bottom: 32px;
+  margin-bottom: 2rem;
+  margin-left: 3.2px;
+  margin-left: .2rem;
+}
 .story-box {
   padding: .5em;
-  
+}
+.story__box {
+  padding: .5em;
+  background-color: #fafafa;
+}
+.story__box__name {
+  margin: 0;
+  font-size: 3em;
+}
+.profile {
+  font-size: 12.8px;
+  font-size: .8rem;
+}
+.profile > dt {
+  float: left;
+  clear: both;
+  width: 176px;
+  width : 11rem;
+}
+.profile > dd {
+  padding-left: 16px;
+  padding-left : 1rem;
+}
+.masonry {
+  -webkit-column-count: 2;
+     -moz-column-count: 2;
+          column-count: 2;
+  -webkit-column-gap: 0;
+     -moz-column-gap: 0;
+          column-gap: 0;
+}
+.masonry > * {
+  display: inline-block;
+  vertical-align: bottom;
+}
+@media only screen and (min-width: 599px) {
+  .container {
+    padding: 2em;
+  }
+  .bride-name, .groom-name {
+    font-size: 5em;
+  }
+  .and {
+    font-size: 2.5em;
+  }
+}
+@media only screen and (min-width: 959px) {
+  .masonry {
+    -webkit-column-count: 3;
+       -moz-column-count: 3;
+            column-count: 3;
+  }
+}
+.u-center {
+  text-align: center;
 }

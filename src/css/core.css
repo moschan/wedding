@@ -3,22 +3,39 @@
 @import "font-awesome/css/font-awesome.css";
 
 @import "base.css";
+@import "palette.css";
 
 .headding-h2 {
   text-align: center;
-  margin: 3em 0 1em 0;
+  margin: 1rem 5rem;
+  border-bottom: 1px solid;
+  padding-bottom: 0.2em;
+  color: #D5B286;
+  font-weight: normal;
 }
 
-.container-wrapper {
-  margin: 2em;
-  width:90%;
-  max-width: 1280px;
-  margin-right: auto;
-  margin-left: auto;
+.favorite-pictures {
+  text-align: center;
+  margin: 1rem 1rem;
+  border-bottom: 1px solid;
+  padding-bottom: 0.2em;
+  color: #D5B286;
+  font-weight: normal;
 }
+
+.container-wrapper { }
+
 .container {
-  padding: 2em;
-  background: white;
+  padding: .2em;
+  background-color: #fafafa;
+}
+
+.container--1st {
+  background: url('../img/pattern.svg') no-repeat;
+  background-position: bottom;
+  & p {
+    color: #fafafa;
+  }
 }
 
 .top {
@@ -28,14 +45,79 @@
 .names { }
 
 .bride-name, .groom-name {
-  font-size: 5em
+  font-size: 3em;
+}
+
+.and {
+  font-size: 1.5em;
+  padding-left: .2em;
 }
 
 .hero > img {
   margin: 0 auto;
 }
 
+.box {
+  margin-left: .2rem;
+  margin-right: .2rem;
+  margin-bottom: 2rem;
+}
+
 .story-box {
   padding: .5em;
-  
+}
+
+.story__box {
+  padding: .5em;
+  background-color: #fafafa;
+}
+
+.story__box__name {
+  font-size: 3em;
+  margin: 0;
+}
+
+.profile {
+  font-size: .8rem;
+}
+
+.profile > dt {
+  float: left;
+  clear: both;
+  width : 11rem;
+}
+
+.profile > dd {
+  padding-left : 1rem;
+}
+.masonry {
+  column-count: 2;
+  column-gap: 0;
+}
+
+.masonry > * {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+@media only screen and (min-width: 599px) {
+  .container {
+    padding: 2em;
+  }
+  .bride-name, .groom-name {
+    font-size: 5em;
+  }
+  .and {
+    font-size: 2.5em;
+  }
+}
+
+@media only screen and (min-width: 959px) {
+  .masonry {
+    column-count: 3;
+  }
+}
+
+.u-center {
+  text-align: center;
 }
