@@ -5,3 +5,8 @@ TODO:
 - [ ] Traslation
 - [ ] Map
 - [ ] Instagram
+
+# Getting Started
+```
+yarn && npm start
+```
