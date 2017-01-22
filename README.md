@@ -1,10 +1,10 @@
-# wedding
-The wedding website for us
+# Happy wedding :tada:
+The wedding website for us :couple:
 
 TODO:
-- [ ] Traslation
-- [ ] Map
-- [ ] Instagram
+- [ ] Multi language
+- [ ] Map integration
+- [ ] Instagram integration
 
 # Getting Started
 ```
