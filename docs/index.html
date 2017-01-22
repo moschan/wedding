@@ -4,18 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title></title>
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web:200,400" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:100,400" rel="stylesheet">
   <link rel="stylesheet" href="./css/bundle.css">
   <script src="./js/bundle.js"></script>
 </head>
 <body>
+  <header>
+  </header>
   <div class="container-wrapper">
-    <div class="container">
+    <div class="container container--1st">
       <div class="top box">
+        <div class="top__sub">
+          <p>The wedding of ...</p>
+        </div>
         <div class="top__names">
           <p>
-            <span class="bride-name">Yuki</span>
-            <span>and</span>
-            <span class="groom-name">Kota</span>
+            <span class="bride-name">Kota</span>
+            <span class="and">&</span>
+            <span class="groom-name">Yuki</span>
           </p>
         </div>
         <div class="top__sub">
@@ -25,112 +32,152 @@
           <p>Join us as we celebrate life and love.</p>
         </div>
         <div class="hero">
-          <img class="pure-img" src="http://placehold.it/700x300">
-          <p>Lorem ratione tempora debitis vero dicta quis quas totam veniam. Est placeat molestias modi aspernatur iure suscipit corrupti! Nulla accusamus alias repellendus minima magni accusamus possimus sapiente quam? Optio commodi.</p>
+          <img class="pure-img" src="./img/hero.jpg">
         </div>
       </div>
-
+    </div>
+    <div class="container container--2nd">
       <div class="story box">
         <h2 class="headding-h2">Story/Profile</h2>
         <div class="pure-g">
-          <div class="story-box pure-u-1 pure-u-md-1-2">
-            <h3>Yuki</h3>
-            <img class="pure-img" src="http://placehold.it/700x300">
-            <p>Elit maiores fuga dignissimos dolores ipsam. Iure praesentium voluptatibus nostrum quasi fugiat sed. Architecto placeat maxime facilis magni quisquam accusamus eveniet velit repellat! Adipisci voluptatibus magnam officiis ipsa tempore consectetur.</p>
+          <div class="story__box pure-u-1 pure-u-md-1-2">
+            <h3 class="story__box__name">Kota</h3>
+            <img class="pure-img" src="./img/kota.jpg">
+            <dl class="profile">
+              <dt>名前</dt>
+              <dd>古沢宏太（ふるさわこうた）</dd>
+              <dt>生年月日</dt>
+              <dd>1992年1月5日</dd>
+              <dt>血液型</dt>
+              <dd>慎重なAB型</dd>
+              <dt>星座</dt>
+              <dd>責任感の強い山羊座</dd>
+              <dt>出身地</dt>
+              <dd>福島県二本松市</dd>
+              <dt>子どもの頃の夢</dt>
+              <dd>ゲームプログラマ</dd>
+              <dt>今のお仕事</dt>
+              <dd>Webサイト作る</dd>
+              <dt>座右の銘</dt>
+              <dd>日進月歩</dd>
+              <dt>好きな飲み物</dt>
+              <dd>炭酸水</dd>
+              <dt>好きなシンガポールフード</dt>
+              <dd>ラクサ</dd>
+              <dt>相手の好きなところ</dt>
+              <dd>笑顔</dd>
+            </dl>
+            <h2 class="favorite-pictures">Yukiが選ぶKotaの写真 Top10</h2>
+            <div class="masonry">
+              <img class="pure-img" src="./img/groom/1.jpg">
+              <img class="pure-img" src="./img/groom/2.jpg">
+              <img class="pure-img" src="./img/groom/3.jpg">
+              <img class="pure-img" src="./img/groom/4.jpg">
+              <img class="pure-img" src="./img/groom/5.jpg">
+            </div>
           </div>
-          <div class="story-box pure-u-1 pure-u-md-1-2">
-            <h3>Kota</h3>
-            <img class="pure-img" src="http://placehold.it/700x300">
-            <p>Elit maiores fuga dignissimos dolores ipsam. Iure praesentium voluptatibus nostrum quasi fugiat sed. Architecto placeat maxime facilis magni quisquam accusamus eveniet velit repellat! Adipisci voluptatibus magnam officiis ipsa tempore consectetur.</p>
+          <div class="story__box pure-u-1 pure-u-md-1-2">
+            <h3 class="story__box__name">Yuki</h3>
+            <img class="pure-img" src="./img/yuki.jpg">
+            <dl class="profile">
+              <dt>名前</dt>
+              <dd>池田幸紀（いけだゆき）</dd>
+              <dt>生年月日</dt>
+              <dd>1985年5月4日</dd>
+              <dt>血液型</dt>
+              <dd>気まぐれなB型</dd>
+              <dt>星座</dt>
+              <dd>我慢強い牡牛座</dd>
+              <dt>出身地</dt>
+              <dd>兵庫県加古川市</dd>
+              <dt>子どもの頃の夢</dt>
+              <dd>学校の先生</dd>
+              <dt>今のお仕事</dt>
+              <dd>人にお仕事を紹介する</dd>
+              <dt>座右の銘</dt>
+              <dd>実るほど頭を垂れる稲穂かな</dd>
+              <dt>好きな食べ物</dt>
+              <dd>日本のお米</dd>
+              <dt>好きなシンガポールフード</dt>
+              <dd>チリクラブ</dd>
+              <dt>相手の好きなところ</dt>
+              <dd>色々付き合ってくれるところ</dd>
+            </dl>
+            <h2 class="favorite-pictures">Kotaが選ぶYukiの写真 Top10</h2>
+            <div class="masonry">
+              <img class="pure-img" src="./img/bride/1.jpg">
+              <img class="pure-img" src="./img/bride/2.jpg">
+              <img class="pure-img" src="./img/bride/3.jpg">
+              <img class="pure-img" src="./img/bride/4.jpg">
+              <img class="pure-img" src="./img/bride/5.jpg">
+            </div>
           </div>
         </div>
       </div>
 
       <div class="events box">
         <h2 class="headding-h2">Events</h2>
-        <p>Amet facilis magni eos dicta inventore vel? Deleniti ut cumque unde quas sed ullam. Labore consequatur quaerat asperiores corrupti vero. Natus atque odit architecto qui aperiam animi quod. Minima veritatis!</p>
         <div class="pure-g">
           <div class="story-box pure-u-1 pure-u-md-1-3">
-            <img class="pure-img" src="http://placehold.it/700x300">
-            <h3>フレアージュ葉山 チャーチ</h3>
-            <p>Elit maiores fuga dignissimos dolores ipsam. Iure praesentium voluptatibus nostrum quasi fugiat sed. Architecto placeat maxime facilis magni quisquam accusamus eveniet velit repellat! Adipisci voluptatibus magnam officiis ipsa tempore consectetur.</p>
+            <a href="http://www.flairge.jp/hayama/" target="_blank">
+              <img class="pure-img" src="./img/church.jpg">
+            </a>
+            <a href="http://www.flairge.jp/hayama/" target="_blank">
+              <h3>葉山ホテル音羽ノ森 別邸 スカイチャペル</h3>
+            </a>
+              <p>SATURDAY, MAR 25, 2017 4:00 PM</p>
           </div>
+            <div class="story-box pure-u-1 pure-u-md-1-3">
+              <a href="http://www.flairge.jp/hayama/" target="_blank">
+                <img class="pure-img" src="./img/floor.jpg">
+              </a>
+              <a href="http://www.flairge.jp/hayama/" target="_blank">
+                <h3>葉山ホテル音羽ノ森 別邸 披露宴会場</h3>
+              </a>
+              <p>SATURDAY, MAR 25, 2017 5:00 PM</p>
+            </div>
           <div class="story-box pure-u-1 pure-u-md-1-3">
-            <img class="pure-img" src="http://placehold.it/700x300">
-            <h3>フレアージュ葉山 宴会場</h3>
-            <p>Elit maiores fuga dignissimos dolores ipsam. Iure praesentium voluptatibus nostrum quasi fugiat sed. Architecto placeat maxime facilis magni quisquam accusamus eveniet velit repellat! Adipisci voluptatibus magnam officiis ipsa tempore consectetur.</p>
-          </div>
-          <div class="story-box pure-u-1 pure-u-md-1-3">
-            <img class="pure-img" src="http://placehold.it/700x300">
-            <h3>二次会場</h3>
-            <p>Elit maiores fuga dignissimos dolores ipsam. Iure praesentium voluptatibus nostrum quasi fugiat sed. Architecto placeat maxime facilis magni quisquam accusamus eveniet velit repellat! Adipisci voluptatibus magnam officiis ipsa tempore consectetur.</p>
+            <a href="http://www.leglise.jp/" target="_blank">
+              <img class="pure-img" src="./img/2ndparty.jpg">
+            </a>
+            <a href="http://www.leglise.jp/" target="_blank">
+              <h3>L'EGLISE鎌倉 二次会パーティ</h3>
+            </a>
+            <p>SATURDAY, MAR 25, 2017 8:30 PM</p>
           </div>
         </div>
       </div>
 
       <div class="Photos box">
         <h2 class="headding-h2">Photos</h2>
+        <p class="u-center">We're working on it..</p>
         <div class="masonry"></div>
       </div>
 
       <div class="events box">
-        <h2 class="headding-h2">Travel/Accommodation</h2>
-        <p>Amet facilis magni eos dicta inventore vel? Deleniti ut cumque unde quas sed ullam. Labore consequatur quaerat asperiores corrupti vero. Natus atque odit architecto qui aperiam animi quod. Minima veritatis!</p>
-        <div class="pure-g">
-          <div class="story-box pure-u-1 pure-u-md-1-3">
-            <img class="pure-img" src="http://placehold.it/700x300">
-            <h3>東横イン</h3>
-            <p>Elit maiores fuga dignissimos dolores ipsam. Iure praesentium voluptatibus nostrum quasi fugiat sed. Architecto placeat maxime facilis magni quisquam accusamus eveniet velit repellat! Adipisci voluptatibus magnam officiis ipsa tempore consectetur.</p>
-          </div>
-          <div class="story-box pure-u-1 pure-u-md-1-3">
-            <img class="pure-img" src="http://placehold.it/700x300">
-            <h3>東横イン2</h3>
-            <p>Elit maiores fuga dignissimos dolores ipsam. Iure praesentium voluptatibus nostrum quasi fugiat sed. Architecto placeat maxime facilis magni quisquam accusamus eveniet velit repellat! Adipisci voluptatibus magnam officiis ipsa tempore consectetur.</p>
-          </div>
-          <div class="story-box pure-u-1 pure-u-md-1-3">
-            <img class="pure-img" src="http://placehold.it/700x300">
-            <h3>二次会場</h3>
-            <p>Elit maiores fuga dignissimos dolores ipsam. Iure praesentium voluptatibus nostrum quasi fugiat sed. Architecto placeat maxime facilis magni quisquam accusamus eveniet velit repellat! Adipisci voluptatibus magnam officiis ipsa tempore consectetur.</p>
-          </div>
-        </div>
+        <h2 class="headding-h2">Accommodation</h2>
+        <p class="u-center">We're working on it..</p>
       </div>
 
       <div class="events box">
         <h2 class="headding-h2">Timeline</h2>
-        <p>Amet facilis magni eos dicta inventore vel? Deleniti ut cumque unde quas sed ullam. Labore consequatur quaerat asperiores corrupti vero. Natus atque odit architecto qui aperiam animi quod. Minima veritatis!</p>
+        <p class="u-center">We're working on it..</p>
       </div>
 
 
       <div class="events box">
         <h2 class="headding-h2">Videos</h2>
-        <p>Amet facilis magni eos dicta inventore vel? Deleniti ut cumque unde quas sed ullam. Labore consequatur quaerat asperiores corrupti vero. Natus atque odit architecto qui aperiam animi quod. Minima veritatis!</p>
-        <div class="pure-g">
-          <div class="story-box pure-u-1 pure-u-md-1-3">
-            <img class="pure-img" src="http://placehold.it/700x300">
-            <h3>東横イン</h3>
-            <p>Elit maiores fuga dignissimos dolores ipsam. Iure praesentium voluptatibus nostrum quasi fugiat sed. Architecto placeat maxime facilis magni quisquam accusamus eveniet velit repellat! Adipisci voluptatibus magnam officiis ipsa tempore consectetur.</p>
-          </div>
-          <div class="story-box pure-u-1 pure-u-md-1-3">
-            <img class="pure-img" src="http://placehold.it/700x300">
-            <h3>東横イン2</h3>
-            <p>Elit maiores fuga dignissimos dolores ipsam. Iure praesentium voluptatibus nostrum quasi fugiat sed. Architecto placeat maxime facilis magni quisquam accusamus eveniet velit repellat! Adipisci voluptatibus magnam officiis ipsa tempore consectetur.</p>
-          </div>
-          <div class="story-box pure-u-1 pure-u-md-1-3">
-            <img class="pure-img" src="http://placehold.it/700x300">
-            <h3>二次会場</h3>
-            <p>Elit maiores fuga dignissimos dolores ipsam. Iure praesentium voluptatibus nostrum quasi fugiat sed. Architecto placeat maxime facilis magni quisquam accusamus eveniet velit repellat! Adipisci voluptatibus magnam officiis ipsa tempore consectetur.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="thank-you box">
-        <h2 class="headding-h2">Thank you!</h2>
-        <p>Amet facilis magni eos dicta inventore vel? Deleniti ut cumque unde quas sed ullam. Labore consequatur quaerat asperiores corrupti vero. Natus atque odit architecto qui aperiam animi quod. Minima veritatis!</p>
+        <p class="u-center">We're working on it..</p>
       </div>
 
       <div class="instagram box">
         <h2 class="headding-h2">Instagram</h2>
-        <p>Amet facilis magni eos dicta inventore vel? Deleniti ut cumque unde quas sed ullam. Labore consequatur quaerat asperiores corrupti vero. Natus atque odit architecto qui aperiam animi quod. Minima veritatis!</p>
+        <p class="u-center"><a href="https://www.instagram.com/kotayuki325/" target="_blank">Instagram</a>で結婚式までの準備の様子などを公開しています！</p>
+      </div>
+
+      <div class="thank-you box">
+        <h2 class="headding-h2">Thank you!</h2>
+        <p></p>
       </div>
 
     </div>
