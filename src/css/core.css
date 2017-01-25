@@ -95,6 +95,10 @@
   column-gap: 0;
 }
 
+.masonry--3 {
+  column-count: 3;
+}
+
 .masonry > * {
   display: inline-block;
   vertical-align: bottom;
@@ -115,6 +119,10 @@
 @media only screen and (min-width: 959px) {
   .masonry {
     column-count: 3;
+  }
+  .masonry--3 {
+    column-count: 4;
+    column-gap: 0;
   }
 }
 

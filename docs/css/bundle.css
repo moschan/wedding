@@ -4496,6 +4496,11 @@ footer > p {
      -moz-column-gap: 0;
           column-gap: 0;
 }
+.masonry--3 {
+  -webkit-column-count: 3;
+     -moz-column-count: 3;
+          column-count: 3;
+}
 .masonry > * {
   display: inline-block;
   vertical-align: bottom;
@@ -4516,6 +4521,14 @@ footer > p {
     -webkit-column-count: 3;
        -moz-column-count: 3;
             column-count: 3;
+  }
+  .masonry--3 {
+    -webkit-column-count: 4;
+       -moz-column-count: 4;
+            column-count: 4;
+    -webkit-column-gap: 0;
+       -moz-column-gap: 0;
+            column-gap: 0;
   }
 }
 .u-center {
