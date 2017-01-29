@@ -124,8 +124,57 @@
     column-count: 4;
     column-gap: 0;
   }
+
+  .timeline-block {
+    width: 50%;
+  }
+
 }
 
 .u-center {
   text-align: center;
 }
+
+.timeline-container {
+  position: relative;
+  padding: 2em 0;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 1.4em;
+    height: 100%;
+    width: 4px;
+    background: #D5B286;
+    z-index: 10;
+  }
+}
+
+.timeline-title {
+  height: 5em;
+  & > p {
+    position: absolute;
+    background: #D5B286;
+    height: 3em;
+    width: 3em;
+    font-weight: bold;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 3em;
+    z-index: 100;
+  }
+}
+
+.timeline-body {
+  position: relative;
+  margin-left: 60px;
+  background: white;
+  border-radius: 0.25em;
+  padding: 1em;
+  box-shadow: 0 3px 0 #D5B286;
+  & img {
+  }
+}
+
