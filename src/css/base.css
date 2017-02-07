@@ -1,4 +1,5 @@
 @import "palette.css";
+
 html {
   font-family: 'Raleway', "Meiryo UI" , "メイリオ" , Meiryo;
   font-weight: 100;
@@ -9,18 +10,13 @@ html {
   color: var(--color-text);
 }
 
-body {
-  /* background: url('../img/brickwall.png') */
-}
+body { }
 
-* {
-  box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Raleway', "Meiryo UI" , "メイリオ" , Meiryo;
   font-weight: 100;
-
 }
 
 footer {
@@ -32,4 +28,3 @@ footer > p {
   margin: 0;
   padding: 1rem 0;
 }
-
