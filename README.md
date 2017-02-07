@@ -1,4 +1,6 @@
-# Happy wedding :tada:
+![](./docs/img/thumbnail.jpg)
+
+# Happy wedding :bride_with_veil::wedding::ring:
 The wedding website for us :couple:
 
 TODO:
