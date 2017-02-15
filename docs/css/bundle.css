@@ -4379,21 +4379,25 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
   width: auto;
   height: auto;
 }
+/**
+ * Definition
+ */
 :root {
-  --color-base: #fafafa;
-  --color-text: #333F58;
-  --color-heading: #D5B286;
+  /* Variables */
+  /* Mixins */;
 }
+/**
+ * Base
+ */
+* { box-sizing: border-box; }
 html {
-  color: var(--color-text);
+  color: #333F58;
   font-weight: 100;
   font-family: 'Raleway', "Meiryo UI" , "メイリオ" , Meiryo;
 }
 :link, :visited {
-  color: var(--color-text);
+  color: #333F58;
 }
-body { }
-* { box-sizing: border-box; }
 h1, h2, h3, h4, h5, h6 {
   font-weight: 100;
   font-family: 'Raleway', "Meiryo UI" , "メイリオ" , Meiryo;
@@ -4404,8 +4408,12 @@ footer {
 }
 footer > p {
   margin: 0;
+  padding: 16px 0;
   padding: 1rem 0;
 }
+/**
+ * Component
+ */
 .headding-h2 {
   margin: 16px 80px;
   margin: 1rem 5rem;
@@ -4439,7 +4447,6 @@ footer > p {
 .top {
   text-align: center;
 }
-.names { }
 .bride-name, .groom-name {
   font-size: 3em;
 }
@@ -4528,7 +4535,6 @@ footer > p {
   .timeline-block {
     width: 50%;
   }
-
 }
 .u-center {
   text-align: center;
@@ -4572,4 +4578,3 @@ footer > p {
   box-shadow: 0 3px 0 #D5B286
 }
 .timeline-body img { }
-
